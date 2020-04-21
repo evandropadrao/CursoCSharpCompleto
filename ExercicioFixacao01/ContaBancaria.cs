@@ -12,6 +12,7 @@ namespace ExercicioFixacao01
       private double _saldo;
       private readonly double TaxaSaque = 5.00;
 
+
       public ContaBancaria(string numero, string titular)
       {
          Numero = numero;
@@ -21,7 +22,7 @@ namespace ExercicioFixacao01
 
       public ContaBancaria(string numero, string titular, double depositoInicial) : this(numero, titular)
       {
-         _saldo = depositoInicial;
+         Deposito(depositoInicial);
       }
 
       public void Deposito(double quantia)
