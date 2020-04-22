@@ -16,10 +16,5 @@ namespace ExercicioResolvido_02.Entities
       {
          this.text = text;
       }
-
-      public override string ToString()
-      {
-         return text;
-      }
    }
 }

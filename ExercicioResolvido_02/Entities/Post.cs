@@ -38,14 +38,14 @@ namespace ExercicioResolvido_02.Entities
       {
          StringBuilder text = new StringBuilder();
 
-         text.Append($"{Title}\n");
-         text.Append($"{Likes} likes - {Moment}\n");
-         text.Append($"{Content}\n");
-         text.Append("Coments:\n");
+         text.AppendLine(Title);
+         text.AppendLine($"{Likes} likes - {Moment.ToString("dd/MM/yyyy HH:mm:ss")}");
+         text.AppendLine(Content);
+         text.AppendLine("Coments:");
 
          foreach (var comment in Comments)
          {
-            text.Append($"{comment}\n");
+            text.AppendLine(comment.text);
          }
 
          return text.ToString();

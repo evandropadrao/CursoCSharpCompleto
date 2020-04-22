@@ -15,10 +15,10 @@ namespace ExercicioResolvido_02
                12);
 
          post1.AddComment(new Comment("Have a nice trip!"));
-         post1.AddComment(new Comment("Wow  that's awesome!"));
+         post1.AddComment(new Comment("Wow that's awesome!"));
 
          Post post2 = new Post(DateTime.ParseExact("28/07/2018 23:14:19", "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture),
-               "Goog night guys!",
+               "Goog night guys",
                "See you tomorrow.",
                5);
 
