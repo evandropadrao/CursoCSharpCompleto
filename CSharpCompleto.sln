@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlePedidos", "Controle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioResolvido_01", "ExercicioResolvido_01\ExercicioResolvido_01.csproj", "{4DC9A561-765B-441E-ABAF-F6D198AD316C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioResolvido_02", "ExercicioResolvido_02\ExercicioResolvido_02.csproj", "{1C31B71E-D933-4C27-8364-915C3C0CB648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4DC9A561-765B-441E-ABAF-F6D198AD316C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC9A561-765B-441E-ABAF-F6D198AD316C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC9A561-765B-441E-ABAF-F6D198AD316C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C31B71E-D933-4C27-8364-915C3C0CB648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C31B71E-D933-4C27-8364-915C3C0CB648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C31B71E-D933-4C27-8364-915C3C0CB648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C31B71E-D933-4C27-8364-915C3C0CB648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
