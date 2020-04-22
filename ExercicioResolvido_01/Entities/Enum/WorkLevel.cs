@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ExercicioResolvido_01.Entities.Enum
+﻿namespace ExercicioResolvido_01.Entities.Enum
 {
    enum WorkLevel : int
    {

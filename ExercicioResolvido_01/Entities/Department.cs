@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercicioResolvido_01.Entities
 {
@@ -15,6 +13,11 @@ namespace ExercicioResolvido_01.Entities
       public Department(string name)
       {
          Name = name ?? throw new ArgumentNullException(nameof(name));
+      }
+
+      public override string ToString()
+      {
+         return Name;
       }
    }
 }
