@@ -5,16 +5,6 @@ using Exercicio_Arquivos.Entities;
 
 namespace Exercicio_Arquivos
 {
-   public static class ExtensaoString
-   {
-      public static string ParseHome(this string path)
-      {
-         string home = @"C:\Pessoal\Cursos\CSharp\Projetos\CursoCSharp_Completo";
-
-         return path.Replace("~", home);
-      }
-   }
-
    class Program
    {
       static void Main(string[] args)
