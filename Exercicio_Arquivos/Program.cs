@@ -19,11 +19,11 @@ namespace Exercicio_Arquivos
    {
       static void Main(string[] args)
       {
-         string sourceFile = @"~\arquivo.csv".ParseHome();
-
-         if (File.Exists(sourceFile))
+         try
          {
-            try
+            string sourceFile = @"~\arquivo1.csv".ParseHome();
+
+            if (File.Exists(sourceFile))
             {
                string targetDirectory = Path.GetDirectoryName(sourceFile) + @"\out";
                string targetFile = targetDirectory + @"\summary.csv";
@@ -33,7 +33,7 @@ namespace Exercicio_Arquivos
                   Directory.CreateDirectory(targetDirectory);
                }
 
-               // Apaga para evitar erro a cada execucao
+               // Apaga para evitar erro a cada execucao de teste ou duplicar o conteudo
                if (File.Exists(targetFile))
                {
                   File.Delete(targetFile);
@@ -58,10 +58,14 @@ namespace Exercicio_Arquivos
                   }
                }
             }
-            catch (IOException ex)
+            else
             {
-               Console.WriteLine("[ERROR]: " + ex.Message);
+               Console.WriteLine("[ERROR]: file doesn't exist!");
             }
+         }
+         catch (IOException ex)
+         {
+            Console.WriteLine("[ERROR]: " + ex.Message);
          }
       }
    }
