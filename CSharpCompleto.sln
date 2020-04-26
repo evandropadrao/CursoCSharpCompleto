@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Interface", "Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_LINQ", "Exercicio_LINQ\Exercicio_LINQ.csproj", "{1EEAD961-EC68-46BB-9FF6-7BD3CC4CC0C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioResolvido_LINQ", "ExercicioResolvido_LINQ\ExercicioResolvido_LINQ.csproj", "{D2734004-3C6C-4D2A-BEE1-EFCD2CDE2D38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1EEAD961-EC68-46BB-9FF6-7BD3CC4CC0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EEAD961-EC68-46BB-9FF6-7BD3CC4CC0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EEAD961-EC68-46BB-9FF6-7BD3CC4CC0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2734004-3C6C-4D2A-BEE1-EFCD2CDE2D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2734004-3C6C-4D2A-BEE1-EFCD2CDE2D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2734004-3C6C-4D2A-BEE1-EFCD2CDE2D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2734004-3C6C-4D2A-BEE1-EFCD2CDE2D38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
